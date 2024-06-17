@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eco-Sip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e8f23c0edf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="py-4 px-6 flex flex-row justify-between items-center mx-auto">
+      <div class="px-6 py-3 bg-[#2D3648] text-white rounded-md">EcoSip</div>
+      <i class="fa-solid fa-bars md:hidden"></i>
+      <ul class="hidden md:flex flex-row space-x-8 items-center">
+        <li>Home</li>
+        <li>Products</li>
+        <li>Cart</li>
+        <div class="px-6 py-3 bg-[#2D3648] text-white rounded-md font-bebasNue">
+          Shop Now
+        </div>
+      </ul>
+    </div>
+
+    <div class="container mx-auto px-4">
+      <!-- Categories -->
+      <section id="categories" class="py-4">
+        <!-- Title -->
+        <div class="text-4xl text-center">
+          <h2 class="font-bebasNue text-3xl">Browse our categories</h2>
+        </div>
+        <!-- Cards -->
+        <div class="flex flex-col gap-4 items-center justify-center">
+          <div
+            class="w-48 h-48 rounded-md flex flex-col items-center justify-between py-6 bg-blue-100"
+          >
+            <div class="font-bebasNue text-2xl">Everyday use</div>
+            <div class="font-bebasNue underline">Shop Now</div>
+          </div>
+          <div
+            class="w-48 h-48 rounded-md flex flex-col items-center justify-between py-6 bg-blue-100"
+          >
+            <div class="font-bebasNue text-2xl">To take with you</div>
+            <div class="font-bebasNue underline">Shop Now</div>
+          </div>
+          <div
+            class="w-48 h-48 rounded-md flex flex-col items-center justify-between py-6 bg-blue-100"
+          >
+            <div class="font-bebasNue text-2xl">Fitness & Sport</div>
+            <div class="font-bebasNue underline">Shop Now</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Mission -->
+      <section id="mission" class="py-4 gap-8 flex flex-col">
+        <!-- Title -->
+        <div class="text-4xl text-center">
+          <h2 class="font-bebasNue text-3xl">Our Mission in action</h2>
+        </div>
+        <p class="text-base">
+          Our mission at EcoSip is to empower people to make sustainable and
+          conscious choices by offering high-quality, eco-friendly drinkware
+          products. We promote the reduction of single-use plastics through
+          durable and stylish alternatives, inspiring a greener and more
+          responsible lifestyle.
+        </p>
+        <!-- Cards -->
+        <div class="flex flex-col gap-4 items-center justify-center">
+          <div class="w-48 h-56 bg-green-400 rounded-md"></div>
+          <div class="w-48 h-56 bg-green-400 rounded-md"></div>
+          <div class="w-48 h-56 bg-green-400 rounded-md"></div>
+        </div>
+        <!-- Buttons -->
+        <div class="gap-2 flex flex-col">
+          <!-- Button Dark -->
+          <div
+            class="font-bebasNue text-xl w-full text-center bg-black text-white p-2 rounded-md"
+          >
+            Shop products
+          </div>
+          <div
+            class="font-bebasNue text-xl w-full text-center bg-white text-black border-2 border-black p-2 rounded-md"
+          >
+            Get to know us better
+          </div>
+        </div>
+      </section>
+
+      <!-- Sip Smart Live Green -->
+      <section id="sip-smart" class="py-4 gap-2 flex flex-col">
+        <!-- Title -->
+        <div class="text-4xl text-center">
+          <h2 class="font-bebasNue text-3xl">Sip smart, live green</h2>
+        </div>
+        <p class="text-base">
+          Designed with a double-wall vacuum insulation, they keep beverages
+          cold for up to 24 hours and hot for up to 12 hours, making them
+          perfect for any lifestyle.
+        </p>
+        <p class="text-base">
+          With a variety of colors and finishes, our water bottles cater to
+          diverse tastes, reflecting personal style while promoting
+          sustainability.
+        </p>
+        <!-- Buttons -->
+        <div class="gap-2 flex flex-col">
+          <!-- Button Dark -->
+          <div
+            class="font-bebasNue text-xl w-full text-center bg-black text-white p-2 rounded-md"
+          >
+            Shop now
+          </div>
+          <div
+            class="font-bebasNue text-xl w-full text-center bg-white text-black border-2 border-black p-2 rounded-md"
+          >
+            Learn more
+          </div>
+        </div>
+        <div class="w-full h-96 rounded-md bg-red-100">Photo</div>
+      </section>
+
+      <!-- Reviews -->
+      <section id="reviews" class="py-4 gap-2 flex flex-col">
+        <div class="text-3xl text-center">
+          <h2 class="font-bebasNue text-2xl">What our customers think</h2>
+        </div>
+        <!-- Review Wrapper -->
+        <div class="rounded-md shadow-md p-2">
+          <!-- Header -->
+          <div class="flex flex-row justify-between">
+            <div class="font-bebasNue text-lg">Jennifer Fuller</div>
+            <div class="">S S S S S</div>
+          </div>
+          <!-- Text -->
+          <div class="text-base">
+            “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.”
+          </div>
+          <!-- Footer -->
+          <div class="flex flex-row items-center">
+            <div class="text-sm">Water bottle 1 |</div>
+            <div class="font-bebasNue underline px-1">Shop water bottles</div>
+          </div>
+        </div>
+        <div class="rounded-md shadow-md p-2">
+          <!-- Header -->
+          <div class="flex flex-row justify-between">
+            <div class="font-bebasNue text-lg">Jennifer Fuller</div>
+            <div class="">S S S S S</div>
+          </div>
+          <!-- Text -->
+          <div class="text-base">
+            “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.”
+          </div>
+          <!-- Footer -->
+          <div class="flex flex-row items-center">
+            <div class="text-sm">Water bottle 1 |</div>
+            <div class="font-bebasNue underline px-1">Shop water bottles</div>
+          </div>
+        </div>
+        <div class="rounded-md shadow-md p-2">
+          <!-- Header -->
+          <div class="flex flex-row justify-between">
+            <div class="font-bebasNue text-lg">Jennifer Fuller</div>
+            <div class="">S S S S S</div>
+          </div>
+          <!-- Text -->
+          <div class="text-base">
+            “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.”
+          </div>
+          <!-- Footer -->
+          <div class="flex flex-row items-center">
+            <div class="text-sm">Water bottle 1 |</div>
+            <div class="font-bebasNue underline px-1">Shop water bottles</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section id="newsletter" class="py-4 gap-2 flex flex-col">
+        <div class="text-3xl text-center">
+          <h2 class="font-bebasNue text-2xl">
+            Don't miss a sip of our eco-friendly updates!
+          </h2>
+        </div>
+        <div class="">
+          Join the EcoSip community today for exclusive offers and sustainable
+          living tips!
+        </div>
+        <div
+          class="font-bebasNue text-xl w-full text-center bg-white text-black border-2 border-black p-2 rounded-md"
+        >
+          Join ecosip today
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <section
+      id="footer"
+      class="bg-black text-white px-2 py-6 flex flex-col gap-3"
+    >
+      <div class="">EcoSip</div>
+      <!-- Title -->
+      <div class="text-2xl text-left">
+        <h3 class="font-bebasNue text-2xl">
+          saving the planet 1 bottle at a time
+        </h3>
+      </div>
+      <!-- Buttons -->
+      <div class="flex flex-col gap-2">
+        <div
+          class="font-bebasNue text-xl w-full text-center text-white border-2 border-white p-2 rounded-md"
+        >
+          shop now
+        </div>
+        <div
+          class="font-bebasNue text-xl w-full text-center text-white border-2 border-white p-2 rounded-md"
+        >
+          Join our community
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="border border-white-w-full"></div>
+
+      <!-- Links -->
+      <div class="flex flex-row flex-wrap text-sm gap-2">
+        <div class="w-1/2">
+          <div class="font-bold">Contact</div>
+          <div class="text-xs text-slate-300">
+            9565 S. Railroad Dr. Spring Valley, NY 10977 United States 0800
+            01234 5678
+          </div>
+        </div>
+        <div class="w-1/2">
+          <div class="font-bold">Navigation</div>
+          <div class="text-xs text-slate-300">
+            <ul>
+              <li>Home</li>
+              <li>Products</li>
+              <li>Cart</li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-1/2">
+          <div class="font-bold">Social Media</div>
+          <div class="text-xs text-slate-300">
+            <ul>
+              <li>Twitter</li>
+              <li>Facebook</li>
+              <li>Instagram</li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-1/2">
+          <div class="font-bold">Legal</div>
+          <div class="text-xs text-slate-300">
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Cookie Agreement</li>
+              <li>Terms of service</li>
+              <li>Photos from <span class="underline">freepik.com</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
